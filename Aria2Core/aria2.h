@@ -1,3 +1,4 @@
+
 /* <!-- copyright */
 /*
  * aria2 - The high speed download utility
@@ -353,34 +354,6 @@ int addTorrent(Session* session, A2Gid* gid, const std::string& torrentFile,
  * Returns the array of active download GID.
  */
 std::vector<A2Gid> getActiveDownload(Session* session);
-
-/**
- * @function
- *
- * Returns the array of waiting download GID.
- */
-std::vector<A2Gid> getWaitingDownload(Session* session);
-
-/**
- * @function
- *
- * Returns the array of stopped download GID.
- */
-std::vector<A2Gid> getStoppedDownload(Session* session);
-
-/**
- * @function
- *
- * Returns the array of error download GID.
- */
-std::vector<A2Gid> getErrorDownload(Session* session);
-
-/**
- * @function
- *
- * Returns the array of completed download GID.
- */
-std::vector<A2Gid> getCompletedDownload(Session* session);
 
 /**
  * @function
